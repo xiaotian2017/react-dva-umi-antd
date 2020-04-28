@@ -1,0 +1,24 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+}
+
+.ant-select-dropdown {
+  z-index: 10002;
+}
+
+.global-pagination {
+  text-align: right;
+  margin-top: 20px !important;
+}
